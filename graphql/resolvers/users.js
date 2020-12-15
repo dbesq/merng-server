@@ -7,7 +7,7 @@ const { UserInputError } = require('apollo-server')
 
 // Security/Validation
 const { validateRegisterInput, validateLoginInput } = require('../../util/validators')
-const \SECRET_KEY = process.env.SECRET_KEY
+const SECRET_KEY = process.env.SECRET_KEY
 
 const User = require('../../models/User')
 
